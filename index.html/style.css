@@ -1,0 +1,87 @@
+:root{
+    --bg: #8DF2AD;
+    --bg-2: #4bc084;
+    --border: #3c9a68;
+
+
+    --text: #b3b3b3;
+    --text2: #a3b0c2;
+
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+#topbar{
+    background: var(--bg-2);
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    border: 2px solid var(--border);
+}
+
+#header-container{
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#brand_name{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.brand{
+    text-decoration: none;
+}
+
+.nav_link{
+    color: var(--text);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav_link:hover{
+    background: var(--text2);
+    color: var(--bg-2);
+    border-radius: 20px;
+}
+
+.services {
+    background-color: #17c2a4; 
+    color: white;
+    padding: 80px 20px;
+}
+
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; 
+}
+
+.service {
+    width: 200px;
+}
+
+.service h3 {
+    margin-bottom: 10px;
+}

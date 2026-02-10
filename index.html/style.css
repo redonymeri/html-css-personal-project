@@ -4,8 +4,8 @@
     --border: #3c9a68;
 
 
-    --text: #b3b3b3;
-    --text2: #a3b0c2;
+    --text: #ffffff;
+    --text2: #000000;
 
 }
 
@@ -76,12 +76,47 @@ body{
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap; 
+    border: 2px solid var(--border);
+    padding: 50px;
 }
 
 .service {
-    width: 200px;
+    width: 250px;
+    margin: 50px;
 }
 
 .service h3 {
     margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#img2 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#img3 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#img4 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#information {
+    background-color: #3c9a68; 
+    color: white;
+    padding: 40px 15px;
+    border: 2px solid var(--border);
+    margin: 67px;
 }

@@ -120,3 +120,45 @@ img {
     border: 2px solid var(--border);
     margin: 67px;
 }
+
+#topbar_contact{
+    background: var(--bg-2);
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    border: 2px solid var(--border);
+}
+
+#header-container_contact{
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-container_about{
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-box-contact {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; 
+    border: 2px solid var(--border);
+    padding: 50px;
+}
+
+.service-contact {
+    width: 250px;
+    margin: 50px;
+}
+
+.service-contact h3 {
+    margin-bottom: 10px;
+}

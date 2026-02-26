@@ -187,12 +187,24 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+  text-align: center;
 }
 
 #from-area {
+
     background-color: #3c9a68; 
     color: white;
     padding: 40px 15px;
     border: 2px solid var(--border);
-    margin: 67px;
+}
+.service-box-about{
+    text-align: center;
+}
+
+#form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
